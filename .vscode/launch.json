@@ -52,7 +52,7 @@
             "type": "python",
             "request": "launch",
             "stopOnEntry": true,
-            "pythonPath": "C:/Users/1700590/Documents/LPII/myPython/Scripts/python.exe",
+            "pythonPath": "${config:python.pythonPath}",
             "program": "${file}",
             "cwd": "",
             "console": "integratedTerminal",
